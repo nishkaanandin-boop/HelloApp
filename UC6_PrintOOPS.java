@@ -17,12 +17,11 @@ public class UC6_PrintOOPS {
         }
     }
 
-    // Combines O O P S for each row
+    
     public static String buildLine(int row) {
         return getOPattern(row) + getO2Pattern(row) + getPPattern(row) + getSPattern(row);
     }
 
-    // First O
     public static String getOPattern(int row) {
         String[] O = {
                 "   ***   ",
@@ -36,7 +35,7 @@ public class UC6_PrintOOPS {
         return O[row];
     }
 
-    // Second O (spacing exactly as you typed)
+    
     public static String getO2Pattern(int row) {
         String[] O2 = {
                 "   ***    ",
@@ -50,7 +49,7 @@ public class UC6_PrintOOPS {
         return O2[row];
     }
 
-    // P pattern
+
     public static String getPPattern(int row) {
         String[] P = {
                 "******   ",
@@ -64,7 +63,7 @@ public class UC6_PrintOOPS {
         return P[row];
     }
 
-    // S pattern
+
     public static String getSPattern(int row) {
         String[] S = {
                 "   ***** ",
